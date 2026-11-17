@@ -1,15 +1,43 @@
 # ad-creative-lens
 
-Tag mobile game ad creatives with an LLM (Gemini by default, or a local Ollama model) and see user-acquisition creative trends: which hooks each
-advertiser and genre is using, when a new hook shows up, and which creatives keep running.
+Tags mobile game ad creatives (hook, call to action, promised features) with an LLM and turns the tags into
+user-acquisition creative trends: hook share over time per genre and advertiser, new-hook alerts, and
+creative lifespan as a proxy for winners.
 
-It reads ads from the [Meta Ad Library API](https://www.facebook.com/ads/library/api/) (`ads_archive`) with
-your own token, or from a local folder of screenshots/videos plus a CSV. It writes a static HTML report.
+## Try it
 
-**The bundled data is synthetic.** No Ad Library token was available while building this, so the API
-fixtures in [`fixtures/api/`](fixtures/api) were written by hand to match the documented
-`ads_archive` / `ArchivedAd` response shape. Advertisers, page ids and ad ids are fictional. The trend
-numbers in the demo report describe that made-up data and nothing else.
+**[Open the demo report](https://oguzhanozfe.github.io/ad-creative-lens/)** (synthetic data, no install needed).
+
+[![Demo report: hook share over time by genre and advertiser](docs/screenshot.png)](https://oguzhanozfe.github.io/ad-creative-lens/)
+
+```bash
+git clone https://github.com/oguzhanozfe/ad-creative-lens && cd ad-creative-lens
+python -m adlens demo          # Python 3.10+, stdlib only; writes out/index.html
+```
+
+`demo` tags the bundled ads (the API-shaped fixtures and the local-folder input) and builds the report. It
+picks a model automatically and never needs a key:
+
+1. `GEMINI_API_KEY` (or `DEEPSEEK_API_KEY`) set → that cloud model, live.
+2. Else a local Ollama at `127.0.0.1:11434` with `qwen3.5:9b` → local, live (slower: one request per ad).
+3. Else **replay** of the recorded `gemini-3.5-flash-lite` tags from 2026-11-17 in
+   [`fixtures/tag_cache.jsonl`](fixtures/tag_cache.jsonl), printed as `mode: replay (...)`.
+
+If a live model fails (bad key, quota), it falls back to replay. `python -m adlens demo --replay` skips the
+live models; CI runs it that way and checks that the published page matches.
+
+**The bundled data is synthetic.** The ads are hand-written in the shape of the Meta Ad Library
+`ads_archive` / `ArchivedAd` response; advertisers, page ids and ad ids are fictional. The trends in the demo
+describe that made-up set and nothing else.
+
+### Use a real model or your own ads
+
+- Your own ads, no account needed: a folder with `ads.csv` (+ screenshots/videos), then
+  `python -m adlens run --folder my_ads --out out` (tagging needs a key or `--backend ollama`; see [With a local folder](#with-a-local-folder)).
+- Your own key: `export GEMINI_API_KEY=...` and the commands use Gemini; `--backend ollama` for a local
+  model.
+- The **Meta Ad Library adapter is optional**: it needs your own identity-verified Meta token
+  (see [With a real Ad Library token](#with-a-real-ad-library-token)). Nothing else depends on it.
 
 ## Why
 
@@ -86,7 +114,7 @@ Needs Python 3.10+ (stdlib only). Tagging backends, chosen with `--backend`:
 with the API's message instead of retrying; rerun later and it resumes from the cache.
 
 ```bash
-# 1. Demo with no model: uses the committed tag cache
+# 1. Same data as the demo, through the general `run` command, replaying the committed tag cache
 python -m adlens run --api-dir fixtures/api --folder fixtures/folder --genres fixtures/genres.json \
   --cache fixtures/tag_cache.jsonl --offline --vision --out out
 open out/report.html
@@ -174,7 +202,8 @@ adlens/trends.py    shares, new hooks, lifespans
 adlens/evaluate.py  agreement vs hand labels (accuracy, Cohen's kappa, per-class)
 adlens/report.py    static HTML
 fixtures/           SYNTHETIC API pages, folder CSV, labels, generator script, committed tag cache
-results/            committed eval output and demo report from the real Gemini run
+results/            committed eval output and report from the real Gemini run
+docs/               GitHub Pages demo (index.html from `demo --replay`) and screenshot
 ```
 
 MIT licensed.

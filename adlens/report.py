@@ -56,7 +56,7 @@ def new_table(heading, rows):
         [[e(r["group"]), e(r["value"]), e(r["first_month"]), r["creatives"], e(r["example"])] for r in rows])
 
 
-def render(summary, model, sources):
+def render(summary, model, sources, banner=None):
     s = summary
     p = [f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
          f'<meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -64,9 +64,11 @@ def render(summary, model, sources):
          "<h1>ad-creative-lens report</h1>",
          f'<p>{s["creatives"]} creatives, {s["ads"]} ads. As of {e(str(s["as_of"]))}. '
          f'Model: {e(model)}. Sources: {e(", ".join(sources)) or "none"}.</p>']
-    if "meta_api" in sources or "folder" in sources:
-        p.append('<div class="notice">If this is the bundled demo, its data is SYNTHETIC (hand-written fixtures with fictional '
-                 "advertisers). Run on your own Ad Library pull or ad folder for real insight.</div>")
+    if banner:
+        p.append(f'<div class="notice">{e(banner)}</div>')
+    elif "meta_api" in sources or "folder" in sources:
+        p.append('<div class="notice">If this is the bundled demo, its data is SYNTHETIC (hand-written fixtures with '
+                 "fictional advertisers). Run on your own Ad Library pull or ad folder for real insight.</div>")
     p.append(share_section("Hook share over time by genre", s["hook_share_by_genre"], s["counts_by_genre"]))
     p.append(share_section("Hook share over time by advertiser", s["hook_share_by_advertiser"], s["counts_by_advertiser"]))
     p.append("<h2>New hooks</h2><p>A hook counts as new when a group starts using it after its first two months of activity.</p>")

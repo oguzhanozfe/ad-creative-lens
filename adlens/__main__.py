@@ -1,8 +1,10 @@
-"""CLI: python -m adlens {fetch,run,eval}"""
+"""CLI: python -m adlens {demo,run,eval,fetch}"""
 import argparse
 import json
 import os
 import sys
+import urllib.request
+from argparse import Namespace
 from datetime import date
 from pathlib import Path
 
@@ -10,6 +12,53 @@ from . import ingest, tagger, trends
 from .evaluate import evaluate, load_labels, to_markdown
 
 TOKEN_ENV = "META_AD_LIBRARY_TOKEN"
+FIX = Path(__file__).resolve().parent.parent / "fixtures"
+RECORDED = {"model": "gemini-3.5-flash-lite", "date": "2026-11-17"}  # the run that wrote fixtures/tag_cache.jsonl
+DEMO_BANNER = ("SYNTHETIC DEMO DATA: hand-written ads from fictional advertisers, not real Meta Ad Library data. "
+               "Trends below describe this made-up set only.")
+
+
+def resolve_backend(ollama_host):
+    """Demo model order: a cloud key in the environment, else a reachable local Ollama, else None (replay)."""
+    for backend, (_, env, _, _) in tagger.PROVIDERS.items():
+        if os.environ.get(env):
+            return backend
+    try:
+        with urllib.request.urlopen(ollama_host.rstrip("/") + "/api/tags", timeout=2) as r:
+            names = {m["name"] for m in json.loads(r.read()).get("models", [])}
+        if tagger.default_model("ollama") in names:
+            return "ollama"
+    except (OSError, ValueError):
+        pass
+    return None
+
+
+def demo(a):
+    base = dict(api_dir=[str(FIX / "api")], folder=[str(FIX / "folder")], genres=str(FIX / "genres.json"),
+                model=None, vision=True, vision_backend=None, vision_model=None, batch_size=None, ollama=a.ollama)
+    backend = None if a.replay else resolve_backend(a.ollama)
+    creatives = None
+    if backend:
+        print(f"mode: live {backend}/{tagger.default_model(backend)} (responses cached in {a.out}/demo_cache.jsonl)")
+        try:
+            args = Namespace(**base, backend=backend, offline=False, cache=str(Path(a.out) / "demo_cache.jsonl"))
+            creatives = load_creatives(args)
+            label = f"{backend}/{args.client.model}"
+        except (SystemExit, OSError, ValueError) as err:
+            print(f"live {backend} failed ({str(err)[:200]}); falling back to replay", file=sys.stderr)
+    if creatives is None:
+        print(f"mode: replay (recorded {RECORDED['model']}, {RECORDED['date']})")
+        args = Namespace(**base, backend="gemini", offline=True, cache=str(FIX / "tag_cache.jsonl"))
+        creatives = load_creatives(args)
+        label = f"replay of recorded {RECORDED['model']} tags ({RECORDED['date']})"
+    from .report import render
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    summary = trends.summarise(creatives)
+    (out / "summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False))
+    sources = sorted({c["source"] for c in creatives})
+    (out / "index.html").write_text(render(summary, label, sources, banner=DEMO_BANNER), encoding="utf-8")
+    print(f"{summary['creatives']} creatives from {summary['ads']} ads -> {out / 'index.html'}")
 
 
 def load_creatives(args):
@@ -45,6 +94,11 @@ def main(argv=None):
     p = argparse.ArgumentParser(prog="adlens", description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
 
+    d = sub.add_parser("demo", help="tag the bundled synthetic ads and build the report; no key needed")
+    d.add_argument("--replay", action="store_true", help="skip live models; use the recorded tags")
+    d.add_argument("--out", default="out")
+    d.add_argument("--ollama", default=os.environ.get("OLLAMA_HOST", "http://127.0.0.1:11434"))
+
     f = sub.add_parser("fetch", help=f"download ads_archive pages (token from ${TOKEN_ENV})")
     f.add_argument("--out", required=True)
     f.add_argument("--search-terms", default="")
@@ -77,6 +131,9 @@ def main(argv=None):
     sub.choices["eval"].add_argument("--labels", required=True)
     a = p.parse_args(argv)
 
+    if a.cmd == "demo":
+        demo(a)
+        return
     if a.cmd == "fetch":
         token = os.environ.get(TOKEN_ENV)
         if not token:

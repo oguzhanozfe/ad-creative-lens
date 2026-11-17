@@ -12,5 +12,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m unittest discover -s tests -t . -v
-      - name: offline demo from committed tag cache
-        run: python -m adlens run --api-dir fixtures/api --folder fixtures/folder --genres fixtures/genres.json --cache fixtures/tag_cache.jsonl --offline --vision --out out
+      - name: demo (replay mode, no key, no model)
+        run: python -m adlens demo --replay --out out
+      - name: published demo page is up to date
+        run: diff out/index.html docs/index.html

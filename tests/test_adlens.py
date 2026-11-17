@@ -230,5 +230,18 @@ class Trends(unittest.TestCase):
         self.assertIn("proxy", page.lower())
 
 
+
+class Demo(unittest.TestCase):
+    def test_replay_demo_needs_no_key_or_model(self):
+        from adlens.__main__ import main, resolve_backend
+        with unittest.mock.patch.dict("os.environ", {}, clear=True):
+            self.assertIsNone(resolve_backend("http://127.0.0.1:9"))  # nothing listens on port 9
+            with tempfile.TemporaryDirectory() as tmp, unittest.mock.patch("sys.stdout", new=io.StringIO()) as out:
+                main(["demo", "--out", tmp, "--ollama", "http://127.0.0.1:9"])
+                page = (Path(tmp) / "index.html").read_text()
+        self.assertIn("mode: replay (recorded gemini-3.5-flash-lite", out.getvalue())
+        self.assertIn("SYNTHETIC DEMO DATA", page)
+
+
 if __name__ == "__main__":
     unittest.main()
