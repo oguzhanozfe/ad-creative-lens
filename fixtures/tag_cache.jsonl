@@ -1,0 +1,61 @@
+{"key": "8eb50c3f3a94698022f7f718", "tags": {"hook": "other", "cta": "install", "features": []}}
+{"key": "5e64738a59e6865e30cfcbed", "tags": {"hook": "fail_challenge", "cta": "install", "features": ["levels"]}}
+{"key": "cae709fb233d8ac19c62c6ed", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "337610911ae124b5afc56d4e", "tags": {"hook": "other", "cta": "install", "features": ["customization"]}}
+{"key": "9ee73233ba9a22b84d33d732", "tags": {"hook": "satisfying", "cta": "play_now", "features": []}}
+{"key": "998c21a57687316ed31bf428", "tags": {"hook": "fail_challenge", "cta": "install", "features": []}}
+{"key": "55a899a2f2430820db22e148", "tags": {"hook": "other", "cta": "play_now", "features": ["coop", "pvp"]}}
+{"key": "930c1f0d9f91c67ab452af52", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "8abcd36aa74aa9afac934e8d", "tags": {"hook": "other", "cta": "install", "features": ["idle", "rewards"]}}
+{"key": "443f8c3f68bdcd5badc268e6", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "220f23f2df4b897b31420fe5", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "f7404e12fd1d9b2e800366a0", "tags": {"hook": "other", "cta": "pre_register", "features": ["rewards"]}}
+{"key": "2bf7d642763b94a4a824ccb0", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "37999ee9e05c3b83f3965b34", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "6f837032c84d41ccc2f292dd", "tags": {"hook": "story", "cta": "install", "features": ["story_choices"]}}
+{"key": "0f66eafdb081b90663dd6a84", "tags": {"hook": "other", "cta": "install", "features": ["levels", "offline"]}}
+{"key": "9cd368d8a79d45aeda87905e", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "5d03db2985bc8abde242556d", "tags": {"hook": "other", "cta": "install", "features": ["idle", "offline"]}}
+{"key": "91ef44cc78c73af98df6cb2d", "tags": {"hook": "other", "cta": "install", "features": ["levels", "offline"]}}
+{"key": "7679e2426f8bbc3761716ab2", "tags": {"hook": "story", "cta": "install", "features": []}}
+{"key": "8dbfff51bb4e88128414b781", "tags": {"hook": "satisfying", "cta": "play_now", "features": []}}
+{"key": "31782ea3be190bb7c4395d84", "tags": {"hook": "story", "cta": "install", "features": []}}
+{"key": "ecf781dccf4dc339782d7760", "tags": {"hook": "fail_challenge", "cta": "none", "features": []}}
+{"key": "78498923ec33afbd4bb87234", "tags": {"hook": "fail_challenge", "cta": "none", "features": ["levels"]}}
+{"key": "29f24f7892aa72d8dfe5335e", "tags": {"hook": "fail_challenge", "cta": "play_now", "features": ["pvp"]}}
+{"key": "e0ac5d3f31d61779c7ae060a", "tags": {"hook": "other", "cta": "install", "features": ["idle", "rewards"]}}
+{"key": "9ce3ffbbc61ba6ed53acc0ee", "tags": {"hook": "other", "cta": "none", "features": ["story_choices"]}}
+{"key": "88638d93f66ed8aeadfe341d", "tags": {"hook": "story", "cta": "play_now", "features": []}}
+{"key": "657f3c57c51c2d08f8552ada", "tags": {"hook": "story", "cta": "install", "features": []}}
+{"key": "1ede198aebc22356ead66b3d", "tags": {"hook": "fail_challenge", "cta": "none", "features": ["levels"]}}
+{"key": "0875f5ba8b4f18f3e42bc56c", "tags": {"hook": "other", "cta": "install", "features": ["coop"]}}
+{"key": "36ac6092ca0a82a5a72702a7", "tags": {"hook": "other", "cta": "install", "features": ["pvp"]}}
+{"key": "318c19f0787ffcde5ac474ab", "tags": {"hook": "satisfying", "cta": "install", "features": ["offline"]}}
+{"key": "17f9009f9fa7041100aa3c90", "tags": {"hook": "other", "cta": "play_now", "features": ["rewards"]}}
+{"key": "dba9c1ab5ab3f3e93c55fd34", "tags": {"hook": "other", "cta": "install", "features": ["offline"]}}
+{"key": "aa6b3f590e6d9822893e9ba6", "tags": {"hook": "other", "cta": "pre_register", "features": []}}
+{"key": "ad0202b03672bea3dc9f3554", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "4214d09d230480ac896836e2", "tags": {"hook": "story", "cta": "pre_register", "features": []}}
+{"key": "be3f518c2a79c74c663989cc", "tags": {"hook": "story", "cta": "install", "features": []}}
+{"key": "29cf614a6085323ce5f66e72", "tags": {"hook": "fail_challenge", "cta": "install", "features": []}}
+{"key": "435afd53eedbe85a1e0f811a", "tags": {"hook": "other", "cta": "install", "features": ["customization"]}}
+{"key": "f4ae2287057c01370ed4236a", "tags": {"hook": "other", "cta": "install", "features": ["customization"]}}
+{"key": "0ee19b61ab823fe14ec404e9", "tags": {"hook": "other", "cta": "none", "features": ["coop", "rewards"]}}
+{"key": "6fb92591b960a6196fc56b8f", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "ca4fe43688674a06a6f99074", "tags": {"hook": "other", "cta": "pre_register", "features": ["rewards"]}}
+{"key": "4dbe2224ffbb43fdbcb2c8c5", "tags": {"hook": "fake_gameplay", "cta": "install", "features": []}}
+{"key": "9ac3cc6c9643c7f1dbfe3b8e", "tags": {"hook": "other", "cta": "install", "features": ["rewards"]}}
+{"key": "e3350b7978e7273691270c26", "tags": {"hook": "other", "cta": "play_now", "features": ["rewards"]}}
+{"key": "536bf504d4c9f0f9602a6c90", "tags": {"hook": "story", "cta": "play_now", "features": ["story_choices"]}}
+{"key": "4ccaa24cfa1b8680c8a141e5", "tags": {"hook": "other", "cta": "none", "features": []}}
+{"key": "3de0258c33cd1c5bc45f5cee", "tags": {"hook": "fail_challenge", "cta": "none", "features": []}}
+{"key": "cd4c9609a78d59f2ea326031", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "c5874751f99547f1e6b908bf", "tags": {"hook": "other", "cta": "none", "features": ["rewards"]}}
+{"key": "f109fd6cd26034c54597025d", "tags": {"hook": "other", "cta": "install", "features": []}}
+{"key": "723f29e973bfeabffe46647e", "tags": {"hook": "fail_challenge", "cta": "none", "features": ["pvp"]}}
+{"key": "e72e26c9bd34a7aba0637934", "tags": {"hook": "other", "cta": "play_now", "features": ["pvp"]}}
+{"key": "a7a3679733d0350b9d8ea13c", "tags": {"hook": "fake_gameplay", "cta": "play_now", "features": []}}
+{"key": "a7f7075e2246161099df3fe3", "tags": {"hook": "satisfying", "cta": "install", "features": []}}
+{"key": "29a76102ed0372b09bf14104", "tags": {"hook": "other", "cta": "install", "features": ["customization"]}}
+{"key": "be0f93e477ff04e69ea2294d", "tags": {"hook": "other", "visuals": []}}
+{"key": "97ec4e5073f9107281c635df", "tags": {"hook": "other", "visuals": []}}

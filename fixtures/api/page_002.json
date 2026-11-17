@@ -1,0 +1,555 @@
+{
+ "_synthetic_note": "SYNTHETIC fixture written by hand to match the documented ads_archive / ArchivedAd response shape. Advertisers, page ids and ad ids are fictional. Not real Meta data.",
+ "data": [
+  {
+   "id": "800000000000126",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-07-10",
+   "ad_delivery_start_time": "2026-07-10",
+   "ad_creative_bodies": [
+    "The king was betrayed by his own brother. Rise as the rightful heir and reclaim the throne. Download now."
+   ],
+   "ad_creative_link_titles": [
+    "The Lost Heir"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000126",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-08-05"
+  },
+  {
+   "id": "800000000000127",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-07-28",
+   "ad_delivery_start_time": "2026-07-28",
+   "ad_creative_bodies": [
+    "Every choice changes the war. Ally with the north or burn their villages?"
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000127",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000128",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-08-14",
+   "ad_delivery_start_time": "2026-08-14",
+   "ad_creative_bodies": [
+    "Crush rival kingdoms in live PvP. Climb the leaderboard. Get it free."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold Arena"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000128",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-01"
+  },
+  {
+   "id": "800000000000129",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-09-03",
+   "ad_delivery_start_time": "2026-09-03",
+   "ad_creative_bodies": [
+    "Only 1% of commanders survive wave 30. Prove you're not like the rest. Install now."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Survive"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000129",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000130",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-09-19",
+   "ad_delivery_start_time": "2026-09-19",
+   "ad_creative_bodies": [
+    "Choose the right gate or the army is lost! Most commanders pick wrong. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Gates"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000130",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000131",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-10-05",
+   "ad_delivery_start_time": "2026-10-05",
+   "ad_creative_bodies": [
+    "Can you defend the wall for 60 seconds? Nobody on our team could."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Survive"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000131",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000132",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-10-18",
+   "ad_delivery_start_time": "2026-10-18",
+   "ad_creative_bodies": [
+    "Baue deine Festung und kämpfe gegen echte Spieler. Jetzt kostenlos spielen!"
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000132",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "de"
+   ]
+  },
+  {
+   "id": "800000000000133",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-05-08",
+   "ad_delivery_start_time": "2026-05-08",
+   "ad_creative_bodies": [
+    "Customise your hero with 200+ skins and forge legendary gear. Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000133",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-07-30"
+  },
+  {
+   "id": "800000000000134",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-05-27",
+   "ad_delivery_start_time": "2026-05-27",
+   "ad_creative_bodies": [
+    "Idle heroes that fight for you 24/7. Collect rewards when you return. Install now."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge Idle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000134",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-06-18"
+  },
+  {
+   "id": "800000000000135",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-06-14",
+   "ad_delivery_start_time": "2026-06-14",
+   "ad_creative_bodies": [
+    "Mira was the last mage of a burned city. Guide her journey and decide who lives. Download today."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge: Mira"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000135",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-12"
+  },
+  {
+   "id": "800000000000136",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-07-06",
+   "ad_delivery_start_time": "2026-07-06",
+   "ad_creative_bodies": [
+    "Melt the gold, pour the mould, watch the sword glow. So satisfying. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000136",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-07-18"
+  },
+  {
+   "id": "800000000000137",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-07-24",
+   "ad_delivery_start_time": "2026-07-24",
+   "ad_creative_bodies": [
+    "Your heroes level up while you sleep. Log in for daily free summons. Get it free."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge Idle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000137",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000138",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-08-11",
+   "ad_delivery_start_time": "2026-08-11",
+   "ad_creative_bodies": [
+    "Fight alongside friends in 4-player raids. Install now."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000138",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-10"
+  },
+  {
+   "id": "800000000000139",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-08-30",
+   "ad_delivery_start_time": "2026-08-30",
+   "ad_creative_bodies": [
+    "Forge, hammer, polish. Hours of relaxing crafting. Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000139",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000140",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-09-15",
+   "ad_delivery_start_time": "2026-09-15",
+   "ad_creative_bodies": [
+    "Ends Sunday: double rewards on every raid. Don't miss out."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000140",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-01"
+  },
+  {
+   "id": "800000000000141",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-10-02",
+   "ad_delivery_start_time": "2026-10-02",
+   "ad_creative_bodies": [
+    "Mira's mentor returns as a traitor. Your choices decide the ending. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge: Mira"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000141",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000142",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-10-20",
+   "ad_delivery_start_time": "2026-10-20",
+   "ad_creative_bodies": [
+    "Pull the lever to drop the boss into the lava! Only 5% get it right. Play now!"
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000142",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000143",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-10-27",
+   "ad_delivery_start_time": "2026-10-27",
+   "ad_creative_bodies": [
+    "Erschaffe deinen Helden mit über 200 Skins. Jetzt herunterladen."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000143",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "de"
+   ]
+  },
+  {
+   "id": "800000000000144",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-09-20",
+   "ad_delivery_start_time": "2026-09-20",
+   "ad_creative_bodies": [
+    "Pre-register for Pinwheel Gardens and get 1000 free coins at launch."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Gardens"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000144",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-15"
+  },
+  {
+   "id": "800000000000145",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-08-28",
+   "ad_delivery_start_time": "2026-08-28",
+   "ad_creative_bodies": [
+    "Brickfall 2 is coming. Pre-register today and be first in line."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall 2"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000145",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-20"
+  },
+  {
+   "id": "800000000000146",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_creation_time": "2026-09-01",
+   "ad_delivery_start_time": "2026-09-01",
+   "ad_creative_bodies": [
+    "Mira's journey continues soon. Pre-register now to hear how her story ends."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge: Mira"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000146",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-30"
+  },
+  {
+   "id": "800000000000147",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-08-25",
+   "ad_delivery_start_time": "2026-08-25",
+   "ad_creative_bodies": [
+    "48 hours only: 3x speed-ups for all commanders. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000147",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-02"
+  },
+  {
+   "id": "800000000000148",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-10-12",
+   "ad_delivery_start_time": "2026-10-12",
+   "ad_creative_bodies": [
+    "Last chance! Free premium pass ends tonight. Download now."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000148",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000900",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_delivery_start_time": "2026-10-03T07:00:00+0000",
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "publisher_platforms": [
+    "facebook"
+   ]
+  },
+  {
+   "id": "800000000000901",
+   "page_id": "900000000000004",
+   "page_name": "Lumen Forge",
+   "ad_delivery_start_time": "2026-10-08T12:30:00+0000",
+   "ad_creative_bodies": [
+    "The forge never sleeps.",
+    "Melt, pour, polish - watch the blade glow. So satisfying. Install now."
+   ],
+   "ad_creative_link_titles": [
+    "Lumen Forge"
+   ],
+   "publisher_platforms": [
+    "instagram"
+   ]
+  },
+  {
+   "id": "800000000000902",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-06-12",
+   "ad_delivery_start_time": "2026-10-20T09:00:00+0000",
+   "ad_creative_bodies": [
+    "Pick the right key to escape the room. Only geniuses get it first try. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Escape now"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000114",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  }
+ ],
+ "paging": {
+  "cursors": {
+   "before": "QVFIUjIy",
+   "after": "QVFIUjQ0"
+  }
+ }
+}

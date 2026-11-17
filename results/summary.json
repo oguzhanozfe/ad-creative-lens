@@ -1,0 +1,1131 @@
+{
+ "as_of": "2026-10-30",
+ "creatives": 59,
+ "ads": 60,
+ "overall": {
+  "hook": {
+   "other": 26,
+   "fail_challenge": 9,
+   "satisfying": 9,
+   "story": 8,
+   "fake_gameplay": 7
+  },
+  "cta": {
+   "install": 31,
+   "play_now": 15,
+   "none": 9,
+   "pre_register": 4
+  }
+ },
+ "features": {
+  "rewards": 9,
+  "levels": 5,
+  "pvp": 5,
+  "offline": 5,
+  "customization": 4,
+  "coop": 3,
+  "idle": 3,
+  "story_choices": 3
+ },
+ "lifespans": [
+  {
+   "creative_id": "800000000000122",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-05-02",
+   "last_seen": "2026-10-25",
+   "days": 176,
+   "running": false,
+   "ads": 1,
+   "text": "Build your fortress, train your army, conquer the realm. Join millions of lords. Download free. | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000102",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "satisfying",
+   "first_seen": "2026-05-21",
+   "last_seen": null,
+   "days": 162,
+   "running": true,
+   "ads": 1,
+   "text": "Sort the colours, clear the board, breathe out. The most satisfying puzzle on your phone. Install today. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000100",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "fail_challenge",
+   "first_seen": "2026-05-03",
+   "last_seen": "2026-09-28",
+   "days": 148,
+   "running": false,
+   "ads": 1,
+   "text": "Only 2% of players pass level 7. Think you're one of them? Download free. | Pinwheel Puzzle - Free"
+  },
+  {
+   "creative_id": "800000000000114",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-06-12",
+   "last_seen": null,
+   "days": 140,
+   "running": true,
+   "ads": 2,
+   "text": "Pick the right key to escape the room. Only geniuses get it first try. Play now. | Escape now"
+  },
+  {
+   "creative_id": "tp-002",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "satisfying",
+   "first_seen": "2026-06-20",
+   "last_seen": null,
+   "days": 132,
+   "running": true,
+   "ads": 1,
+   "text": "Pop every bubble and feel the stress melt away. Download free."
+  },
+  {
+   "creative_id": "800000000000125",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-06-25",
+   "last_seen": null,
+   "days": 127,
+   "running": true,
+   "ads": 1,
+   "text": "Your castle keeps growing even when you're offline. Come back to a stronger army. Install today. | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000105",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "story",
+   "first_seen": "2026-07-02",
+   "last_seen": null,
+   "days": 120,
+   "running": true,
+   "ads": 1,
+   "text": "Grandma Rose lost her flower shop. Solve puzzles to rebuild it, one room at a time. Download now. | Help Rose rebuild"
+  },
+  {
+   "creative_id": "800000000000135",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "story",
+   "first_seen": "2026-06-14",
+   "last_seen": "2026-10-12",
+   "days": 120,
+   "running": false,
+   "ads": 1,
+   "text": "Mira was the last mage of a burned city. Guide her journey and decide who lives. Download today. | Lumen Forge: Mira"
+  },
+  {
+   "creative_id": "800000000000112",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fail_challenge",
+   "first_seen": "2026-05-14",
+   "last_seen": "2026-08-31",
+   "days": 109,
+   "running": false,
+   "ads": 1,
+   "text": "Everyone gets stuck on this one. Can you clear it in 3 moves? Install free. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000137",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-07-24",
+   "last_seen": null,
+   "days": 98,
+   "running": true,
+   "ads": 1,
+   "text": "Your heroes level up while you sleep. Log in for daily free summons. Get it free. | Lumen Forge Idle"
+  },
+  {
+   "creative_id": "800000000000127",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-07-28",
+   "last_seen": null,
+   "days": 94,
+   "running": true,
+   "ads": 1,
+   "text": "Every choice changes the war. Ally with the north or burn their villages? | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000116",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fail_challenge",
+   "first_seen": "2026-07-19",
+   "last_seen": "2026-10-15",
+   "days": 88,
+   "running": false,
+   "ads": 1,
+   "text": "Can you beat your friends' high score? Challenge them now - play free. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000107",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "story",
+   "first_seen": "2026-08-04",
+   "last_seen": "2026-10-30",
+   "days": 87,
+   "running": false,
+   "ads": 1,
+   "text": "Rose's daughter came home after ten years. Will they open the shop together? New chapter out now - play now. | Pinwheel: Rose's Story"
+  },
+  {
+   "creative_id": "tp-004",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "story",
+   "first_seen": "2026-08-05",
+   "last_seen": null,
+   "days": 86,
+   "running": true,
+   "ads": 1,
+   "text": "Finn the fish lost his family in the storm. Help him find his way home. Install now."
+  },
+  {
+   "creative_id": "800000000000133",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-05-08",
+   "last_seen": "2026-07-30",
+   "days": 83,
+   "running": false,
+   "ads": 1,
+   "text": "Customise your hero with 200+ skins and forge legendary gear. Download free. | Lumen Forge"
+  },
+  {
+   "creative_id": "800000000000139",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "satisfying",
+   "first_seen": "2026-08-30",
+   "last_seen": null,
+   "days": 61,
+   "running": true,
+   "ads": 1,
+   "text": "Forge, hammer, polish. Hours of relaxing crafting. Download free. | Lumen Forge"
+  },
+  {
+   "creative_id": "800000000000118",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "story",
+   "first_seen": "2026-09-02",
+   "last_seen": null,
+   "days": 58,
+   "running": true,
+   "ads": 1,
+   "text": "Tom's bakery is about to close. Clear blocks to pay the rent and save his dream. Install now. | Save Tom's Bakery"
+  },
+  {
+   "creative_id": "800000000000129",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "fail_challenge",
+   "first_seen": "2026-09-03",
+   "last_seen": null,
+   "days": 57,
+   "running": true,
+   "ads": 1,
+   "text": "Only 1% of commanders survive wave 30. Prove you're not like the rest. Install now. | Ironhold: Survive"
+  },
+  {
+   "creative_id": "800000000000104",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-06-18",
+   "last_seen": "2026-08-10",
+   "days": 53,
+   "running": false,
+   "ads": 1,
+   "text": "1000+ handcrafted levels. Play offline, anywhere. Get it free. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "tp-006",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "other",
+   "first_seen": "2026-09-10",
+   "last_seen": null,
+   "days": 50,
+   "running": true,
+   "ads": 1,
+   "text": "Decorate your own aquarium with 300 fish and corals. Download today."
+  },
+  {
+   "creative_id": "800000000000109",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-09-12",
+   "last_seen": null,
+   "days": 48,
+   "running": true,
+   "ads": 1,
+   "text": "Decorate Rose's garden your way. Hundreds of styles to unlock. Download free. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "tp-001",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-06-01",
+   "last_seen": "2026-07-15",
+   "days": 44,
+   "running": false,
+   "ads": 1,
+   "text": "Help the little fish escape the shark! Choose the right tunnel. Play now."
+  },
+  {
+   "creative_id": "800000000000130",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-09-19",
+   "last_seen": null,
+   "days": 41,
+   "running": true,
+   "ads": 1,
+   "text": "Choose the right gate or the army is lost! Most commanders pick wrong. Play now. | Ironhold: Gates"
+  },
+  {
+   "creative_id": "800000000000119",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-09-24",
+   "last_seen": null,
+   "days": 36,
+   "running": true,
+   "ads": 1,
+   "text": "Pull the pin, free the gold, avoid the lava. Most players choose wrong! Download free. | Brickfall Rescue"
+  },
+  {
+   "creative_id": "800000000000123",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-05-16",
+   "last_seen": "2026-06-15",
+   "days": 30,
+   "running": false,
+   "ads": 1,
+   "text": "Team up with your clan to take down the dragon. Real-time co-op battles. Play now. | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000138",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-09-10",
+   "days": 30,
+   "running": false,
+   "ads": 1,
+   "text": "Fight alongside friends in 4-player raids. Install now. | Lumen Forge"
+  },
+  {
+   "creative_id": "800000000000110",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-10-01",
+   "last_seen": null,
+   "days": 29,
+   "running": true,
+   "ads": 1,
+   "text": "Daily gifts every time you log in. Download free today! | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000146",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "story",
+   "first_seen": "2026-09-01",
+   "last_seen": "2026-09-30",
+   "days": 29,
+   "running": false,
+   "ads": 1,
+   "text": "Mira's journey continues soon. Pre-register now to hear how her story ends. | Lumen Forge: Mira"
+  },
+  {
+   "creative_id": "tp-007",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "other",
+   "first_seen": "2026-10-01",
+   "last_seen": null,
+   "days": 29,
+   "running": true,
+   "ads": 1,
+   "text": "Weekend event: triple pearls until Monday! Play now."
+  },
+  {
+   "creative_id": "800000000000124",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-06-03",
+   "last_seen": "2026-07-01",
+   "days": 28,
+   "running": false,
+   "ads": 1,
+   "text": "Pre-register now for Season 3 and get an exclusive legendary hero. | Ironhold Season 3"
+  },
+  {
+   "creative_id": "800000000000141",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "story",
+   "first_seen": "2026-10-02",
+   "last_seen": null,
+   "days": 28,
+   "running": true,
+   "ads": 1,
+   "text": "Mira's mentor returns as a traitor. Your choices decide the ending. Play now. | Lumen Forge: Mira"
+  },
+  {
+   "creative_id": "800000000000900",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-10-03",
+   "last_seen": null,
+   "days": 27,
+   "running": true,
+   "ads": 1,
+   "text": "Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000126",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "story",
+   "first_seen": "2026-07-10",
+   "last_seen": "2026-08-05",
+   "days": 26,
+   "running": false,
+   "ads": 1,
+   "text": "The king was betrayed by his own brother. Rise as the rightful heir and reclaim the throne. Download now. | The Lost Heir"
+  },
+  {
+   "creative_id": "800000000000103",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-06-05",
+   "last_seen": "2026-06-30",
+   "days": 25,
+   "running": false,
+   "ads": 1,
+   "text": "Pull the right pin to save the cat! Most people pick the wrong one. Play now! | Can you save it?"
+  },
+  {
+   "creative_id": "800000000000131",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "fail_challenge",
+   "first_seen": "2026-10-05",
+   "last_seen": null,
+   "days": 25,
+   "running": true,
+   "ads": 1,
+   "text": "Can you defend the wall for 60 seconds? Nobody on our team could. | Ironhold: Survive"
+  },
+  {
+   "creative_id": "800000000000144",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-09-20",
+   "last_seen": "2026-10-15",
+   "days": 25,
+   "running": false,
+   "ads": 1,
+   "text": "Pre-register for Pinwheel Gardens and get 1000 free coins at launch. | Pinwheel Gardens"
+  },
+  {
+   "creative_id": "800000000000101",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "satisfying",
+   "first_seen": "2026-05-10",
+   "last_seen": "2026-06-02",
+   "days": 23,
+   "running": false,
+   "ads": 1,
+   "text": "Watch every tile click perfectly into place. Pure calm, no timers. Play now. | Relax with Pinwheel"
+  },
+  {
+   "creative_id": "800000000000145",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-08-28",
+   "last_seen": "2026-09-20",
+   "days": 23,
+   "running": false,
+   "ads": 1,
+   "text": "Brickfall 2 is coming. Pre-register today and be first in line. | Brickfall 2"
+  },
+  {
+   "creative_id": "800000000000134",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-05-27",
+   "last_seen": "2026-06-18",
+   "days": 22,
+   "running": false,
+   "ads": 1,
+   "text": "Idle heroes that fight for you 24/7. Collect rewards when you return. Install now. | Lumen Forge Idle"
+  },
+  {
+   "creative_id": "800000000000901",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "satisfying",
+   "first_seen": "2026-10-08",
+   "last_seen": null,
+   "days": 22,
+   "running": true,
+   "ads": 1,
+   "text": "The forge never sleeps. | Melt, pour, polish - watch the blade glow. So satisfying. Install now. | Lumen Forge"
+  },
+  {
+   "creative_id": "tp-003",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "fail_challenge",
+   "first_seen": "2026-07-10",
+   "last_seen": "2026-08-01",
+   "days": 22,
+   "running": false,
+   "ads": 1,
+   "text": "Only 3% can finish this maze. Are you in?"
+  },
+  {
+   "creative_id": "tp-005",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "other",
+   "first_seen": "2026-08-25",
+   "last_seen": "2026-09-15",
+   "days": 21,
+   "running": false,
+   "ads": 1,
+   "text": "Play offline on the plane, the train, anywhere. Get it free."
+  },
+  {
+   "creative_id": "800000000000111",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-05-05",
+   "last_seen": "2026-05-25",
+   "days": 20,
+   "running": false,
+   "ads": 1,
+   "text": "Draw one line to stop the water from reaching the house. 90% fail! Play now. | Brickfall"
+  },
+  {
+   "creative_id": "800000000000115",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-21",
+   "days": 20,
+   "running": false,
+   "ads": 1,
+   "text": "Stack, drop, clear. Thousands of levels and no wifi needed. Download today. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000120",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-10-10",
+   "last_seen": null,
+   "days": 20,
+   "running": true,
+   "ads": 1,
+   "text": "Limited time: claim 500 free coins this weekend only! | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000113",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "satisfying",
+   "first_seen": "2026-06-01",
+   "last_seen": "2026-06-20",
+   "days": 19,
+   "running": false,
+   "ads": 1,
+   "text": "Crush the blocks and hear that perfect crunch. Satisfying every time. Get it now. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000128",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-08-14",
+   "last_seen": "2026-09-01",
+   "days": 18,
+   "running": false,
+   "ads": 1,
+   "text": "Crush rival kingdoms in live PvP. Climb the leaderboard. Get it free. | Ironhold Arena"
+  },
+  {
+   "creative_id": "800000000000148",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "other",
+   "first_seen": "2026-10-12",
+   "last_seen": null,
+   "days": 18,
+   "running": true,
+   "ads": 1,
+   "text": "Last chance! Free premium pass ends tonight. Download now. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000108",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "satisfying",
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-09-05",
+   "days": 16,
+   "running": false,
+   "ads": 1,
+   "text": "So oddly satisfying. Swipe, match, repeat. No wifi needed. Install free. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000140",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-10-01",
+   "days": 16,
+   "running": false,
+   "ads": 1,
+   "text": "Ends Sunday: double rewards on every raid. Don't miss out. | Lumen Forge"
+  },
+  {
+   "creative_id": "tp-008",
+   "advertiser": "Tidepool Arcade",
+   "genre": "casual",
+   "hook": "fail_challenge",
+   "first_seen": "2026-10-15",
+   "last_seen": null,
+   "days": 15,
+   "running": true,
+   "ads": 1,
+   "text": "Can you beat your best friend's score? Send a challenge."
+  },
+  {
+   "creative_id": "800000000000106",
+   "advertiser": "Pinwheel Puzzle Co",
+   "genre": "puzzle",
+   "hook": "fail_challenge",
+   "first_seen": "2026-07-15",
+   "last_seen": "2026-07-29",
+   "days": 14,
+   "running": false,
+   "ads": 1,
+   "text": "I bet you can't beat level 12 without a hint. | Pinwheel Puzzle"
+  },
+  {
+   "creative_id": "800000000000117",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "fail_challenge",
+   "first_seen": "2026-08-08",
+   "last_seen": "2026-08-22",
+   "days": 14,
+   "running": false,
+   "ads": 1,
+   "text": "Only real puzzle masters make it past level 50. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000132",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-10-18",
+   "last_seen": null,
+   "days": 12,
+   "running": true,
+   "ads": 1,
+   "text": "Baue deine Festung und kämpfe gegen echte Spieler. Jetzt kostenlos spielen! | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000136",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "satisfying",
+   "first_seen": "2026-07-06",
+   "last_seen": "2026-07-18",
+   "days": 12,
+   "running": false,
+   "ads": 1,
+   "text": "Melt the gold, pour the mould, watch the sword glow. So satisfying. Play now. | Lumen Forge"
+  },
+  {
+   "creative_id": "800000000000142",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "fake_gameplay",
+   "first_seen": "2026-10-20",
+   "last_seen": null,
+   "days": 10,
+   "running": true,
+   "ads": 1,
+   "text": "Pull the lever to drop the boss into the lava! Only 5% get it right. Play now! | Lumen Forge"
+  },
+  {
+   "creative_id": "800000000000121",
+   "advertiser": "Brickfall Studios",
+   "genre": "puzzle",
+   "hook": "satisfying",
+   "first_seen": "2026-10-22",
+   "last_seen": null,
+   "days": 8,
+   "running": true,
+   "ads": 1,
+   "text": "Schau zu, wie jeder Block perfekt einrastet. So befriedigend. Jetzt installieren. | Brickfall Blocks"
+  },
+  {
+   "creative_id": "800000000000147",
+   "advertiser": "Ironhold Games",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-08-25",
+   "last_seen": "2026-09-02",
+   "days": 8,
+   "running": false,
+   "ads": 1,
+   "text": "48 hours only: 3x speed-ups for all commanders. Play now. | Ironhold: Realms"
+  },
+  {
+   "creative_id": "800000000000143",
+   "advertiser": "Lumen Forge",
+   "genre": "strategy",
+   "hook": "other",
+   "first_seen": "2026-10-27",
+   "last_seen": null,
+   "days": 3,
+   "running": true,
+   "ads": 1,
+   "text": "Erschaffe deinen Helden mit über 200 Skins. Jetzt herunterladen. | Lumen Forge"
+  }
+ ],
+ "median_life_by_hook": {
+  "fail_challenge": {
+   "n": 9,
+   "median_days": 25
+  },
+  "fake_gameplay": {
+   "n": 7,
+   "median_days": 36
+  },
+  "other": {
+   "n": 26,
+   "median_days": 27.5
+  },
+  "satisfying": {
+   "n": 9,
+   "median_days": 22
+  },
+  "story": {
+   "n": 8,
+   "median_days": 72.0
+  }
+ },
+ "hook_share_by_genre": {
+  "strategy": {
+   "2026-05": {
+    "other": 1.0
+   },
+   "2026-06": {
+    "other": 0.6666666666666666,
+    "story": 0.3333333333333333
+   },
+   "2026-07": {
+    "satisfying": 0.25,
+    "story": 0.25,
+    "other": 0.5
+   },
+   "2026-08": {
+    "other": 0.75,
+    "satisfying": 0.25
+   },
+   "2026-09": {
+    "story": 0.25,
+    "fail_challenge": 0.25,
+    "other": 0.25,
+    "fake_gameplay": 0.25
+   },
+   "2026-10": {
+    "story": 0.16666666666666666,
+    "fail_challenge": 0.16666666666666666,
+    "satisfying": 0.16666666666666666,
+    "other": 0.3333333333333333,
+    "fake_gameplay": 0.16666666666666666
+   }
+  },
+  "puzzle": {
+   "2026-05": {
+    "fail_challenge": 0.4,
+    "fake_gameplay": 0.2,
+    "satisfying": 0.4
+   },
+   "2026-06": {
+    "satisfying": 0.25,
+    "fake_gameplay": 0.5,
+    "other": 0.25
+   },
+   "2026-07": {
+    "other": 0.25,
+    "story": 0.25,
+    "fail_challenge": 0.5
+   },
+   "2026-08": {
+    "story": 0.25,
+    "fail_challenge": 0.25,
+    "satisfying": 0.25,
+    "other": 0.25
+   },
+   "2026-09": {
+    "story": 0.25,
+    "other": 0.5,
+    "fake_gameplay": 0.25
+   },
+   "2026-10": {
+    "other": 0.8,
+    "satisfying": 0.2
+   }
+  },
+  "casual": {
+   "2026-06": {
+    "fake_gameplay": 0.5,
+    "satisfying": 0.5
+   },
+   "2026-07": {
+    "fail_challenge": 1.0
+   },
+   "2026-08": {
+    "story": 0.5,
+    "other": 0.5
+   },
+   "2026-09": {
+    "other": 1.0
+   },
+   "2026-10": {
+    "other": 0.5,
+    "fail_challenge": 0.5
+   }
+  }
+ },
+ "counts_by_genre": {
+  "strategy": {
+   "2026-05": 4,
+   "2026-06": 3,
+   "2026-07": 4,
+   "2026-08": 4,
+   "2026-09": 4,
+   "2026-10": 6
+  },
+  "puzzle": {
+   "2026-05": 5,
+   "2026-06": 4,
+   "2026-07": 4,
+   "2026-08": 4,
+   "2026-09": 4,
+   "2026-10": 5
+  },
+  "casual": {
+   "2026-06": 2,
+   "2026-07": 1,
+   "2026-08": 2,
+   "2026-09": 1,
+   "2026-10": 2
+  }
+ },
+ "new_hooks_by_genre": [
+  {
+   "group": "puzzle",
+   "value": "story",
+   "first_month": "2026-07",
+   "creatives": 3,
+   "example": "Grandma Rose lost her flower shop. Solve puzzles to rebuild it, one room at a time. Download now. | Help Rose rebuild"
+  },
+  {
+   "group": "strategy",
+   "value": "satisfying",
+   "first_month": "2026-07",
+   "creatives": 3,
+   "example": "Melt the gold, pour the mould, watch the sword glow. So satisfying. Play now. | Lumen Forge"
+  },
+  {
+   "group": "casual",
+   "value": "story",
+   "first_month": "2026-08",
+   "creatives": 1,
+   "example": "Finn the fish lost his family in the storm. Help him find his way home. Install now."
+  },
+  {
+   "group": "strategy",
+   "value": "fail_challenge",
+   "first_month": "2026-09",
+   "creatives": 2,
+   "example": "Only 1% of commanders survive wave 30. Prove you're not like the rest. Install now. | Ironhold: Survive"
+  },
+  {
+   "group": "strategy",
+   "value": "fake_gameplay",
+   "first_month": "2026-09",
+   "creatives": 2,
+   "example": "Choose the right gate or the army is lost! Most commanders pick wrong. Play now. | Ironhold: Gates"
+  }
+ ],
+ "hook_share_by_advertiser": {
+  "Ironhold Games": {
+   "2026-05": {
+    "other": 1.0
+   },
+   "2026-06": {
+    "other": 1.0
+   },
+   "2026-07": {
+    "story": 0.5,
+    "other": 0.5
+   },
+   "2026-08": {
+    "other": 1.0
+   },
+   "2026-09": {
+    "fail_challenge": 0.5,
+    "fake_gameplay": 0.5
+   },
+   "2026-10": {
+    "fail_challenge": 0.5,
+    "other": 0.5
+   }
+  },
+  "Pinwheel Puzzle Co": {
+   "2026-05": {
+    "fail_challenge": 0.3333333333333333,
+    "satisfying": 0.6666666666666666
+   },
+   "2026-06": {
+    "fake_gameplay": 0.5,
+    "other": 0.5
+   },
+   "2026-07": {
+    "story": 0.5,
+    "fail_challenge": 0.5
+   },
+   "2026-08": {
+    "story": 0.5,
+    "satisfying": 0.5
+   },
+   "2026-09": {
+    "other": 1.0
+   },
+   "2026-10": {
+    "other": 1.0
+   }
+  },
+  "Brickfall Studios": {
+   "2026-05": {
+    "fake_gameplay": 0.5,
+    "fail_challenge": 0.5
+   },
+   "2026-06": {
+    "satisfying": 0.5,
+    "fake_gameplay": 0.5
+   },
+   "2026-07": {
+    "other": 0.5,
+    "fail_challenge": 0.5
+   },
+   "2026-08": {
+    "fail_challenge": 0.5,
+    "other": 0.5
+   },
+   "2026-09": {
+    "story": 0.5,
+    "fake_gameplay": 0.5
+   },
+   "2026-10": {
+    "other": 0.5,
+    "satisfying": 0.5
+   }
+  },
+  "Lumen Forge": {
+   "2026-05": {
+    "other": 1.0
+   },
+   "2026-06": {
+    "story": 1.0
+   },
+   "2026-07": {
+    "satisfying": 0.5,
+    "other": 0.5
+   },
+   "2026-08": {
+    "other": 0.5,
+    "satisfying": 0.5
+   },
+   "2026-09": {
+    "story": 0.5,
+    "other": 0.5
+   },
+   "2026-10": {
+    "story": 0.25,
+    "satisfying": 0.25,
+    "fake_gameplay": 0.25,
+    "other": 0.25
+   }
+  },
+  "Tidepool Arcade": {
+   "2026-06": {
+    "fake_gameplay": 0.5,
+    "satisfying": 0.5
+   },
+   "2026-07": {
+    "fail_challenge": 1.0
+   },
+   "2026-08": {
+    "story": 0.5,
+    "other": 0.5
+   },
+   "2026-09": {
+    "other": 1.0
+   },
+   "2026-10": {
+    "other": 0.5,
+    "fail_challenge": 0.5
+   }
+  }
+ },
+ "counts_by_advertiser": {
+  "Ironhold Games": {
+   "2026-05": 2,
+   "2026-06": 2,
+   "2026-07": 2,
+   "2026-08": 2,
+   "2026-09": 2,
+   "2026-10": 2
+  },
+  "Pinwheel Puzzle Co": {
+   "2026-05": 3,
+   "2026-06": 2,
+   "2026-07": 2,
+   "2026-08": 2,
+   "2026-09": 2,
+   "2026-10": 3
+  },
+  "Brickfall Studios": {
+   "2026-05": 2,
+   "2026-06": 2,
+   "2026-07": 2,
+   "2026-08": 2,
+   "2026-09": 2,
+   "2026-10": 2
+  },
+  "Lumen Forge": {
+   "2026-05": 2,
+   "2026-06": 1,
+   "2026-07": 2,
+   "2026-08": 2,
+   "2026-09": 2,
+   "2026-10": 4
+  },
+  "Tidepool Arcade": {
+   "2026-06": 2,
+   "2026-07": 1,
+   "2026-08": 2,
+   "2026-09": 1,
+   "2026-10": 2
+  }
+ },
+ "new_hooks_by_advertiser": [
+  {
+   "group": "Ironhold Games",
+   "value": "story",
+   "first_month": "2026-07",
+   "creatives": 1,
+   "example": "The king was betrayed by his own brother. Rise as the rightful heir and reclaim the throne. Download now. | The Lost Heir"
+  },
+  {
+   "group": "Lumen Forge",
+   "value": "satisfying",
+   "first_month": "2026-07",
+   "creatives": 3,
+   "example": "Melt the gold, pour the mould, watch the sword glow. So satisfying. Play now. | Lumen Forge"
+  },
+  {
+   "group": "Pinwheel Puzzle Co",
+   "value": "story",
+   "first_month": "2026-07",
+   "creatives": 2,
+   "example": "Grandma Rose lost her flower shop. Solve puzzles to rebuild it, one room at a time. Download now. | Help Rose rebuild"
+  },
+  {
+   "group": "Tidepool Arcade",
+   "value": "story",
+   "first_month": "2026-08",
+   "creatives": 1,
+   "example": "Finn the fish lost his family in the storm. Help him find his way home. Install now."
+  },
+  {
+   "group": "Brickfall Studios",
+   "value": "story",
+   "first_month": "2026-09",
+   "creatives": 1,
+   "example": "Tom's bakery is about to close. Clear blocks to pay the rent and save his dream. Install now. | Save Tom's Bakery"
+  },
+  {
+   "group": "Ironhold Games",
+   "value": "fail_challenge",
+   "first_month": "2026-09",
+   "creatives": 2,
+   "example": "Only 1% of commanders survive wave 30. Prove you're not like the rest. Install now. | Ironhold: Survive"
+  },
+  {
+   "group": "Ironhold Games",
+   "value": "fake_gameplay",
+   "first_month": "2026-09",
+   "creatives": 1,
+   "example": "Choose the right gate or the army is lost! Most commanders pick wrong. Play now. | Ironhold: Gates"
+  },
+  {
+   "group": "Lumen Forge",
+   "value": "fake_gameplay",
+   "first_month": "2026-10",
+   "creatives": 1,
+   "example": "Pull the lever to drop the boss into the lava! Only 5% get it right. Play now! | Lumen Forge"
+  }
+ ],
+ "frame_tagged": 2,
+ "frame_vs_text_hook_match": 0
+}

@@ -1,0 +1,574 @@
+{
+ "_synthetic_note": "SYNTHETIC fixture written by hand to match the documented ads_archive / ArchivedAd response shape. Advertisers, page ids and ad ids are fictional. Not real Meta data.",
+ "data": [
+  {
+   "id": "800000000000100",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-05-03",
+   "ad_delivery_start_time": "2026-05-03",
+   "ad_creative_bodies": [
+    "Only 2% of players pass level 7. Think you're one of them? Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle - Free"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000100",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-28"
+  },
+  {
+   "id": "800000000000101",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-05-10",
+   "ad_delivery_start_time": "2026-05-10",
+   "ad_creative_bodies": [
+    "Watch every tile click perfectly into place. Pure calm, no timers. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Relax with Pinwheel"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000101",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-06-02"
+  },
+  {
+   "id": "800000000000102",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-05-21",
+   "ad_delivery_start_time": "2026-05-21",
+   "ad_creative_bodies": [
+    "Sort the colours, clear the board, breathe out. The most satisfying puzzle on your phone. Install today."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000102",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000103",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-06-05",
+   "ad_delivery_start_time": "2026-06-05",
+   "ad_creative_bodies": [
+    "Pull the right pin to save the cat! Most people pick the wrong one. Play now!"
+   ],
+   "ad_creative_link_titles": [
+    "Can you save it?"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000103",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-06-30"
+  },
+  {
+   "id": "800000000000104",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-06-18",
+   "ad_delivery_start_time": "2026-06-18",
+   "ad_creative_bodies": [
+    "1000+ handcrafted levels. Play offline, anywhere. Get it free."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000104",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-08-10"
+  },
+  {
+   "id": "800000000000105",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-07-02",
+   "ad_delivery_start_time": "2026-07-02",
+   "ad_creative_bodies": [
+    "Grandma Rose lost her flower shop. Solve puzzles to rebuild it, one room at a time. Download now."
+   ],
+   "ad_creative_link_titles": [
+    "Help Rose rebuild"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000105",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000106",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-07-15",
+   "ad_delivery_start_time": "2026-07-15",
+   "ad_creative_bodies": [
+    "I bet you can't beat level 12 without a hint."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000106",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-07-29"
+  },
+  {
+   "id": "800000000000107",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-08-04",
+   "ad_delivery_start_time": "2026-08-04",
+   "ad_creative_bodies": [
+    "Rose's daughter came home after ten years. Will they open the shop together? New chapter out now - play now."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel: Rose's Story"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000107",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-30"
+  },
+  {
+   "id": "800000000000108",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-08-20",
+   "ad_delivery_start_time": "2026-08-20",
+   "ad_creative_bodies": [
+    "So oddly satisfying. Swipe, match, repeat. No wifi needed. Install free."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000108",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-09-05"
+  },
+  {
+   "id": "800000000000109",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-09-12",
+   "ad_delivery_start_time": "2026-09-12",
+   "ad_creative_bodies": [
+    "Decorate Rose's garden your way. Hundreds of styles to unlock. Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000109",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000110",
+   "page_id": "900000000000001",
+   "page_name": "Pinwheel Puzzle Co",
+   "ad_creation_time": "2026-10-01",
+   "ad_delivery_start_time": "2026-10-01",
+   "ad_creative_bodies": [
+    "Daily gifts every time you log in. Download free today!"
+   ],
+   "ad_creative_link_titles": [
+    "Pinwheel Puzzle"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000110",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000111",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-05-05",
+   "ad_delivery_start_time": "2026-05-05",
+   "ad_creative_bodies": [
+    "Draw one line to stop the water from reaching the house. 90% fail! Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000111",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-05-25"
+  },
+  {
+   "id": "800000000000112",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-05-14",
+   "ad_delivery_start_time": "2026-05-14",
+   "ad_creative_bodies": [
+    "Everyone gets stuck on this one. Can you clear it in 3 moves? Install free."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000112",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-08-31"
+  },
+  {
+   "id": "800000000000113",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-06-01",
+   "ad_delivery_start_time": "2026-06-01",
+   "ad_creative_bodies": [
+    "Crush the blocks and hear that perfect crunch. Satisfying every time. Get it now."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000113",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-06-20"
+  },
+  {
+   "id": "800000000000114",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-06-12",
+   "ad_delivery_start_time": "2026-06-12",
+   "ad_creative_bodies": [
+    "Pick the right key to escape the room. Only geniuses get it first try. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Escape now"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000114",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000115",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-07-01",
+   "ad_delivery_start_time": "2026-07-01",
+   "ad_creative_bodies": [
+    "Stack, drop, clear. Thousands of levels and no wifi needed. Download today."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000115",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-07-21"
+  },
+  {
+   "id": "800000000000116",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-07-19",
+   "ad_delivery_start_time": "2026-07-19",
+   "ad_creative_bodies": [
+    "Can you beat your friends' high score? Challenge them now - play free."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000116",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-15"
+  },
+  {
+   "id": "800000000000117",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-08-08",
+   "ad_delivery_start_time": "2026-08-08",
+   "ad_creative_bodies": [
+    "Only real puzzle masters make it past level 50."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000117",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-08-22"
+  },
+  {
+   "id": "800000000000118",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-09-02",
+   "ad_delivery_start_time": "2026-09-02",
+   "ad_creative_bodies": [
+    "Tom's bakery is about to close. Clear blocks to pay the rent and save his dream. Install now."
+   ],
+   "ad_creative_link_titles": [
+    "Save Tom's Bakery"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000118",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000119",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-09-24",
+   "ad_delivery_start_time": "2026-09-24",
+   "ad_creative_bodies": [
+    "Pull the pin, free the gold, avoid the lava. Most players choose wrong! Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Rescue"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000119",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000120",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-10-10",
+   "ad_delivery_start_time": "2026-10-10",
+   "ad_creative_bodies": [
+    "Limited time: claim 500 free coins this weekend only!"
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000120",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  },
+  {
+   "id": "800000000000121",
+   "page_id": "900000000000002",
+   "page_name": "Brickfall Studios",
+   "ad_creation_time": "2026-10-22",
+   "ad_delivery_start_time": "2026-10-22",
+   "ad_creative_bodies": [
+    "Schau zu, wie jeder Block perfekt einrastet. So befriedigend. Jetzt installieren."
+   ],
+   "ad_creative_link_titles": [
+    "Brickfall Blocks"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000121",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "de"
+   ]
+  },
+  {
+   "id": "800000000000122",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-05-02",
+   "ad_delivery_start_time": "2026-05-02",
+   "ad_creative_bodies": [
+    "Build your fortress, train your army, conquer the realm. Join millions of lords. Download free."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000122",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-10-25"
+  },
+  {
+   "id": "800000000000123",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-05-16",
+   "ad_delivery_start_time": "2026-05-16",
+   "ad_creative_bodies": [
+    "Team up with your clan to take down the dragon. Real-time co-op battles. Play now."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000123",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-06-15"
+  },
+  {
+   "id": "800000000000124",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-06-03",
+   "ad_delivery_start_time": "2026-06-03",
+   "ad_creative_bodies": [
+    "Pre-register now for Season 3 and get an exclusive legendary hero."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold Season 3"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000124",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ],
+   "ad_delivery_stop_time": "2026-07-01"
+  },
+  {
+   "id": "800000000000125",
+   "page_id": "900000000000003",
+   "page_name": "Ironhold Games",
+   "ad_creation_time": "2026-06-25",
+   "ad_delivery_start_time": "2026-06-25",
+   "ad_creative_bodies": [
+    "Your castle keeps growing even when you're offline. Come back to a stronger army. Install today."
+   ],
+   "ad_creative_link_titles": [
+    "Ironhold: Realms"
+   ],
+   "ad_snapshot_url": "https://www.facebook.com/ads/archive/render_ad/?id=800000000000125",
+   "publisher_platforms": [
+    "facebook",
+    "instagram"
+   ],
+   "languages": [
+    "en"
+   ]
+  }
+ ],
+ "paging": {
+  "cursors": {
+   "before": "QVFIUjAw",
+   "after": "QVFIUjIy"
+  },
+  "next": "https://graph.facebook.com/v23.0/ads_archive?after=QVFIUjIy&limit=22"
+ }
+}
