@@ -103,7 +103,7 @@ def to_creatives(ads):
     return creatives
 
 
-def fetch(token, out_dir, search_terms="", page_ids=(), countries=EU, version="v23.0",
+def fetch(token, out_dir, search_terms="", page_ids=(), countries=EU, version="v27.0",
           active_status="ALL", limit=100, max_pages=20, pause=2.0, opener=urllib.request.urlopen):
     """Page through ads_archive and save each page (token scrubbed) as JSON. Returns pages saved."""
     params = {"ad_type": "ALL", "ad_reached_countries": json.dumps(list(countries)),

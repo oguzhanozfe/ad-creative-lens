@@ -416,6 +416,8 @@
  "disagreements": [
   {
    "split": "test",
+   "creative_id": "800000000000123",
+   "text": "Team up with your clan to take down the dragon. Real-time co-op battles. Play now. | Ironhold: Realms",
    "gold": {
     "hook": "other",
     "cta": "play_now",
@@ -434,6 +436,8 @@
   },
   {
    "split": "dev",
+   "creative_id": "800000000000125",
+   "text": "Your castle keeps growing even when you're offline. Come back to a stronger army. Install today. | Ironhold: Realms",
    "gold": {
     "hook": "other",
     "cta": "install",
@@ -452,6 +456,8 @@
   },
   {
    "split": "test",
+   "creative_id": "800000000000127",
+   "text": "Every choice changes the war. Ally with the north or burn their villages? | Ironhold: Realms",
    "gold": {
     "hook": "story",
     "cta": "play_now",
@@ -469,6 +475,8 @@
   },
   {
    "split": "dev",
+   "creative_id": "800000000000147",
+   "text": "48 hours only: 3x speed-ups for all commanders. Play now. | Ironhold: Realms",
    "gold": {
     "hook": "other",
     "cta": "limited_offer",
@@ -486,6 +494,8 @@
   },
   {
    "split": "dev",
+   "creative_id": "800000000000140",
+   "text": "Ends Sunday: double rewards on every raid. Don't miss out. | Lumen Forge",
    "gold": {
     "hook": "other",
     "cta": "limited_offer",
@@ -505,6 +515,8 @@
   },
   {
    "split": "test",
+   "creative_id": "tp-007",
+   "text": "Weekend event: triple pearls until Monday! Play now.",
    "gold": {
     "hook": "other",
     "cta": "limited_offer",
@@ -522,6 +534,8 @@
   },
   {
    "split": "dev",
+   "creative_id": "800000000000120",
+   "text": "Limited time: claim 500 free coins this weekend only! | Brickfall Blocks",
    "gold": {
     "hook": "other",
     "cta": "limited_offer",
@@ -539,6 +553,8 @@
   },
   {
    "split": "test",
+   "creative_id": "800000000000148",
+   "text": "Last chance! Free premium pass ends tonight. Download now. | Pinwheel Puzzle",
    "gold": {
     "hook": "other",
     "cta": "limited_offer",
@@ -559,10 +575,5 @@
  "prompt_version": "v1",
  "batch_size": 15,
  "model_digest": null,
- "usage_this_run": {
-  "calls": 2,
-  "prompt_tokens": 1673,
-  "completion_tokens": 1201,
-  "total_tokens": 2874
- }
+ "usage_this_run": null
 }

@@ -51,7 +51,7 @@ def main(argv=None):
     f.add_argument("--page-ids", default="", help="comma-separated Facebook page ids (max 10)")
     f.add_argument("--countries", default=",".join(ingest.EU))
     f.add_argument("--active-status", default="ALL", choices=["ALL", "ACTIVE", "INACTIVE"])
-    f.add_argument("--version", default="v23.0", help="Graph API version")
+    f.add_argument("--version", default="v27.0", help="Graph API version (docs showed v27.0 in Nov 2026)")
     f.add_argument("--max-pages", type=int, default=20)
 
     for name in ("run", "eval"):

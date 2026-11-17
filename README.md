@@ -31,13 +31,18 @@ inspectable version of that pipeline: stdlib Python, a hosted model on the free 
 
 ## Measured tagging agreement
 
-All numbers below come from [`results/eval.json`](results/eval.json) /
-[`results/eval.md`](results/eval.md), produced by one real run of `python -m adlens eval`.
+All numbers below come from [`results/eval_live_run.json`](results/eval_live_run.json), written by the live
+`python -m adlens eval` run, and [`results/eval.json`](results/eval.json) / [`results/eval.md`](results/eval.md),
+regenerated from that run's cached tags with `--offline` (no API calls; same tags, plus copy text on each
+disagreement).
 
 - **Text tags model:** `gemini-3.5-flash-lite` (Gemini API, OpenAI-compatible endpoint, temperature 0,
-  JSON-schema output), prompt `v1`, **batched 15 ad copies per request** (4 requests for 59 creatives).
+  JSON-schema output), prompt `v1`, **batched 15 ad copies per request**. The run was interrupted and resumed
+  from the on-disk cache, so `usage_this_run` in `eval_live_run.json` covers only the final leg.
 - **Gold set:** 59 creatives, synthetic copy, one annotator (see Known limits). Split 50/50 by a hash of the
-  ad id; the prompt was written from the definitions before any model output was seen and not changed after.
+  ad id. This is not a real hold-out: the prompt's example phrases ("pull the pin", "48 hours", "send a
+  challenge") were taken from fixture copy in both splits, so dev and test are shown side by side for
+  transparency only. The prompt was not changed after seeing model output.
 
 | split | n | hook acc | hook kappa | CTA acc | CTA kappa | features exact-set match |
 |---|---|---|---|---|---|---|
@@ -45,12 +50,16 @@ All numbers below come from [`results/eval.json`](results/eval.json) /
 | test | 30 | 0.97 | 0.95 | 0.90 | 0.85 | 0.93 |
 | all | 59 | 0.98 | 0.98 | 0.90 | 0.84 | 0.95 |
 
-What the errors were (all 8 disagreements are listed in `results/eval.json`):
+What the errors were (all 8 disagreements, with copy, are in `results/eval.json`):
 
 - **`limited_offer` CTA: 0 of 5 found.** Every time-limited offer ("48 hours only", "Last chance… ends
   tonight", "Ends Sunday") was tagged as play_now, install or none. This is the clearest weakness. The
   prompt's tie rule (limited_offer beats other CTAs) was not followed.
-- One story ad with a "your choices decide" line was tagged `other` instead of `story`.
+- One disagreement is a **gold-label mistake**, not a model error: ad `800000000000127` ("Every choice
+  changes the war. Ally with the north or burn their villages?") has no call to action, yet is labelled
+  `play_now`. It has no character either, so its `story` gold label doesn't fit the written definition. The
+  model said `other` / `none`. The label was left as is so the numbers match the committed run; 7 of the 8
+  disagreement rows are model errors.
 - Two extra features (`pvp` on a co-op raid ad, `offline` on an idle ad).
 
 Per-class numbers with support counts are in [`results/eval.md`](results/eval.md). Classes are small
@@ -59,8 +68,8 @@ Per-class numbers with support counts are in [`results/eval.md`](results/eval.md
 **Frame tags:** 2 placeholder images were sent to `gemini-3.5-flash-lite`; the frame hook matched the text
 hook for 0 of 2. Those images are solid colours, so that is the expected result and not a measurement.
 
-A local run with `qwen3.5:9b` via Ollama was started and stopped at 31 of 61 calls (the shared machine was
-saturated). No local numbers are reported.
+A local run with `qwen3.5:9b` via Ollama was started and stopped at 31 of 61 calls. No local numbers are
+reported.
 
 ## Run it
 
@@ -134,8 +143,8 @@ value replaced by `REDACTED` (both `paging.next` and `ad_snapshot_url` carry it)
 - **CTA wording is templated in the fixtures.** Most fixture CTAs are short appended phrases ("Download
   free.", "Play now."), which makes install/play_now easy; real copy is less tidy. The API also does not
   expose the actual CTA button, so this is CTA *wording* in the copy.
-- **Batched tagging.** The reported numbers are from 15-per-request batches (needed to fit the Gemini free
-  tier of about 20 requests/day per model). One-per-request tagging (`--batch-size 1`) was not measured.
+- **Batched tagging.** The reported numbers are from 15-per-request batches (to fit the Gemini free tier's per-day
+  request limit). One-per-request tagging (`--batch-size 1`) was not measured.
 - **fake_gameplay from text is a framing tag.** Whether an ad's gameplay is misleading can only be judged
   against the real game. From copy the tagger can only see mini-game framing ("pull the pin", "pick the
   right gate").
@@ -148,6 +157,11 @@ value replaced by `REDACTED` (both `paging.next` and `ad_snapshot_url` carry it)
 - **EU-only coverage.** Per Meta's docs, non-political ads are only returned if they reached the EU.
 - **Fetch is untested against the live API** (no token). It is tested against a fake HTTP opener using the
   documented parameters and response shape.
+- **Hung runs.** During the measured run, three attempts stalled for 10+ minutes before the cache-resumed
+  run finished in seconds. The cause wasn't found; timeouts and a single retry are in place, so rerun if it
+  stalls (the cache keeps finished work).
+- `--batch-size 1` reuses tags cached by a batched run (the cache key doesn't include batch mode). Use a
+  fresh `--cache` to compare modes.
 - Prompt changes need a `PROMPT_VERSION` bump in `adlens/tagger.py`, or the cache will serve old tags (a
   test pins the prompt hash).
 

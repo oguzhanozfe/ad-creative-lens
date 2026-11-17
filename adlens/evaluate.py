@@ -14,7 +14,8 @@ def load_labels(path):
 
 
 def split_of(ad_id):
-    """Stable 50/50 dev/test split. The prompt was written against 'dev' only."""
+    """Stable 50/50 dev/test split by ad id. Not a true hold-out: the prompt's example phrases overlap copy
+    in both splits, so the two are reported side by side for transparency only."""
     return "dev" if int(hashlib.sha256(ad_id.encode()).hexdigest(), 16) % 2 == 0 else "test"
 
 
@@ -24,7 +25,7 @@ def pairs(creatives, labels):
     for c in creatives:
         hit = next((a for a in c["ad_ids"] if a in labels), None)
         if hit:
-            out.append((split_of(hit), labels[hit], c["tags"]))
+            out.append((split_of(hit), labels[hit], c["tags"], c))
     return out
 
 
@@ -70,10 +71,11 @@ def evaluate(creatives, labels):
     result = {}
     allpairs = pairs(creatives, labels)
     for split in ("dev", "test", "all"):
-        rows = [(g, p) for s, g, p in allpairs if split in ("all", s)]
+        rows = [(g, p) for s, g, p, _ in allpairs if split in ("all", s)]
         result[split] = {"hook": single_label(rows, "hook", HOOKS), "cta": single_label(rows, "cta", CTAS),
                          "features": multi_label(rows)}
-    result["disagreements"] = [{"split": s, "gold": g, "pred": p} for s, g, p in allpairs if g != p]
+    result["disagreements"] = [{"split": s, "creative_id": c["creative_id"], "text": c["text"], "gold": g, "pred": p}
+                               for s, g, p, c in allpairs if g != p]
     return result
 
 

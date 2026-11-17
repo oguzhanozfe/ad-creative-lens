@@ -1,0 +1,568 @@
+{
+ "dev": {
+  "hook": {
+   "n": 29,
+   "accuracy": 1.0,
+   "kappa": 1.0,
+   "per_class": {
+    "fail_challenge": {
+     "support": 4,
+     "predicted": 4,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "satisfying": {
+     "support": 7,
+     "predicted": 7,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story": {
+     "support": 3,
+     "predicted": 3,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "fake_gameplay": {
+     "support": 2,
+     "predicted": 2,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "other": {
+     "support": 13,
+     "predicted": 13,
+     "precision": 1.0,
+     "recall": 1.0
+    }
+   }
+  },
+  "cta": {
+   "n": 29,
+   "accuracy": 0.896551724137931,
+   "kappa": 0.8412408759124088,
+   "per_class": {
+    "install": {
+     "support": 15,
+     "predicted": 15,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "play_now": {
+     "support": 7,
+     "predicted": 8,
+     "precision": 0.875,
+     "recall": 1.0
+    },
+    "pre_register": {
+     "support": 2,
+     "predicted": 2,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "limited_offer": {
+     "support": 3,
+     "predicted": 0,
+     "precision": null,
+     "recall": 0.0
+    },
+    "none": {
+     "support": 2,
+     "predicted": 4,
+     "precision": 0.5,
+     "recall": 1.0
+    }
+   }
+  },
+  "features": {
+   "n": 29,
+   "exact_set_match": 0.9655172413793104,
+   "per_label": {
+    "levels": {
+     "support": 1,
+     "predicted": 1,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "offline": {
+     "support": 2,
+     "predicted": 3,
+     "agreement": 0.9655172413793104,
+     "precision": 0.6666666666666666,
+     "recall": 1.0
+    },
+    "pvp": {
+     "support": 3,
+     "predicted": 3,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "coop": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "rewards": {
+     "support": 5,
+     "predicted": 5,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "customization": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "idle": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story_choices": {
+     "support": 1,
+     "predicted": 1,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    }
+   }
+  }
+ },
+ "test": {
+  "hook": {
+   "n": 30,
+   "accuracy": 0.9666666666666667,
+   "kappa": 0.9545454545454544,
+   "per_class": {
+    "fail_challenge": {
+     "support": 5,
+     "predicted": 5,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "satisfying": {
+     "support": 2,
+     "predicted": 2,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story": {
+     "support": 6,
+     "predicted": 5,
+     "precision": 1.0,
+     "recall": 0.8333333333333334
+    },
+    "fake_gameplay": {
+     "support": 5,
+     "predicted": 5,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "other": {
+     "support": 12,
+     "predicted": 13,
+     "precision": 0.9230769230769231,
+     "recall": 1.0
+    }
+   }
+  },
+  "cta": {
+   "n": 30,
+   "accuracy": 0.9,
+   "kappa": 0.8466780238500851,
+   "per_class": {
+    "install": {
+     "support": 15,
+     "predicted": 16,
+     "precision": 0.9375,
+     "recall": 1.0
+    },
+    "play_now": {
+     "support": 7,
+     "predicted": 7,
+     "precision": 0.8571428571428571,
+     "recall": 0.8571428571428571
+    },
+    "pre_register": {
+     "support": 2,
+     "predicted": 2,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "limited_offer": {
+     "support": 2,
+     "predicted": 0,
+     "precision": null,
+     "recall": 0.0
+    },
+    "none": {
+     "support": 4,
+     "predicted": 5,
+     "precision": 0.8,
+     "recall": 1.0
+    }
+   }
+  },
+  "features": {
+   "n": 30,
+   "exact_set_match": 0.9333333333333333,
+   "per_label": {
+    "levels": {
+     "support": 4,
+     "predicted": 4,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "offline": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "pvp": {
+     "support": 1,
+     "predicted": 2,
+     "agreement": 0.9666666666666667,
+     "precision": 0.5,
+     "recall": 1.0
+    },
+    "coop": {
+     "support": 1,
+     "predicted": 1,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "rewards": {
+     "support": 5,
+     "predicted": 4,
+     "agreement": 0.9666666666666667,
+     "precision": 1.0,
+     "recall": 0.8
+    },
+    "customization": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "idle": {
+     "support": 1,
+     "predicted": 1,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story_choices": {
+     "support": 2,
+     "predicted": 2,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    }
+   }
+  }
+ },
+ "all": {
+  "hook": {
+   "n": 59,
+   "accuracy": 0.9830508474576272,
+   "kappa": 0.9768445839874412,
+   "per_class": {
+    "fail_challenge": {
+     "support": 9,
+     "predicted": 9,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "satisfying": {
+     "support": 9,
+     "predicted": 9,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story": {
+     "support": 9,
+     "predicted": 8,
+     "precision": 1.0,
+     "recall": 0.8888888888888888
+    },
+    "fake_gameplay": {
+     "support": 7,
+     "predicted": 7,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "other": {
+     "support": 25,
+     "predicted": 26,
+     "precision": 0.9615384615384616,
+     "recall": 1.0
+    }
+   }
+  },
+  "cta": {
+   "n": 59,
+   "accuracy": 0.8983050847457628,
+   "kappa": 0.8441215323645972,
+   "per_class": {
+    "install": {
+     "support": 30,
+     "predicted": 31,
+     "precision": 0.967741935483871,
+     "recall": 1.0
+    },
+    "play_now": {
+     "support": 14,
+     "predicted": 15,
+     "precision": 0.8666666666666667,
+     "recall": 0.9285714285714286
+    },
+    "pre_register": {
+     "support": 4,
+     "predicted": 4,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "limited_offer": {
+     "support": 5,
+     "predicted": 0,
+     "precision": null,
+     "recall": 0.0
+    },
+    "none": {
+     "support": 6,
+     "predicted": 9,
+     "precision": 0.6666666666666666,
+     "recall": 1.0
+    }
+   }
+  },
+  "features": {
+   "n": 59,
+   "exact_set_match": 0.9491525423728814,
+   "per_label": {
+    "levels": {
+     "support": 5,
+     "predicted": 5,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "offline": {
+     "support": 4,
+     "predicted": 5,
+     "agreement": 0.9830508474576272,
+     "precision": 0.8,
+     "recall": 1.0
+    },
+    "pvp": {
+     "support": 4,
+     "predicted": 5,
+     "agreement": 0.9830508474576272,
+     "precision": 0.8,
+     "recall": 1.0
+    },
+    "coop": {
+     "support": 3,
+     "predicted": 3,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "rewards": {
+     "support": 10,
+     "predicted": 9,
+     "agreement": 0.9830508474576272,
+     "precision": 1.0,
+     "recall": 0.9
+    },
+    "customization": {
+     "support": 4,
+     "predicted": 4,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "idle": {
+     "support": 3,
+     "predicted": 3,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    },
+    "story_choices": {
+     "support": 3,
+     "predicted": 3,
+     "agreement": 1.0,
+     "precision": 1.0,
+     "recall": 1.0
+    }
+   }
+  }
+ },
+ "disagreements": [
+  {
+   "split": "test",
+   "gold": {
+    "hook": "other",
+    "cta": "play_now",
+    "features": [
+     "coop"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "play_now",
+    "features": [
+     "coop",
+     "pvp"
+    ]
+   }
+  },
+  {
+   "split": "dev",
+   "gold": {
+    "hook": "other",
+    "cta": "install",
+    "features": [
+     "idle"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "install",
+    "features": [
+     "idle",
+     "offline"
+    ]
+   }
+  },
+  {
+   "split": "test",
+   "gold": {
+    "hook": "story",
+    "cta": "play_now",
+    "features": [
+     "story_choices"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "none",
+    "features": [
+     "story_choices"
+    ]
+   }
+  },
+  {
+   "split": "dev",
+   "gold": {
+    "hook": "other",
+    "cta": "limited_offer",
+    "features": [
+     "rewards"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "play_now",
+    "features": [
+     "rewards"
+    ]
+   }
+  },
+  {
+   "split": "dev",
+   "gold": {
+    "hook": "other",
+    "cta": "limited_offer",
+    "features": [
+     "coop",
+     "rewards"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "none",
+    "features": [
+     "coop",
+     "rewards"
+    ]
+   }
+  },
+  {
+   "split": "test",
+   "gold": {
+    "hook": "other",
+    "cta": "limited_offer",
+    "features": [
+     "rewards"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "play_now",
+    "features": [
+     "rewards"
+    ]
+   }
+  },
+  {
+   "split": "dev",
+   "gold": {
+    "hook": "other",
+    "cta": "limited_offer",
+    "features": [
+     "rewards"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "none",
+    "features": [
+     "rewards"
+    ]
+   }
+  },
+  {
+   "split": "test",
+   "gold": {
+    "hook": "other",
+    "cta": "limited_offer",
+    "features": [
+     "rewards"
+    ]
+   },
+   "pred": {
+    "hook": "other",
+    "cta": "install",
+    "features": []
+   }
+  }
+ ],
+ "backend": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "frame_model": "gemini-3.5-flash-lite",
+ "prompt_version": "v1",
+ "batch_size": 15,
+ "model_digest": null,
+ "usage_this_run": {
+  "calls": 2,
+  "prompt_tokens": 1673,
+  "completion_tokens": 1201,
+  "total_tokens": 2874
+ }
+}

@@ -224,7 +224,7 @@ BATCH_SCHEMA = {"type": "object", "properties": {"items": {"type": "array", "ite
     "required": ["i", "hook", "cta", "features"]}}}, "required": ["items"]}
 
 
-def tag_batch(client, texts):
+def tag_batch(client, texts):  # ponytail: shares the cache key with single-copy tagging; batch mode is not in the key
     """Tag several ad copies in one request. Returns {index: tags}; indexes the model skipped are absent
     and get tagged one by one by the caller."""
     user = "Tag each ad copy independently. Return one item per ad with its index i.\n\n" + "\n".join(
